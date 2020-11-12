@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="_css/estilo.css"/>
+    <meta charset="UTF-8"/>
+    <title>Curso de PHP - CursoemVideo.com</title>
+</head>
+<body>
+<div>
+	<form method="post" action="ex1.php">
+		Valor 1:<input type="number" name="n1">
+		Valor 2:<input type="number" name="n2"><br/>
+		<fieldset><legend>Tipo da Operacao</legend>
+			<input type="radio" name="tipo" value="pot" id="pot">
+			<label for="pot">Potenciacao:</label>
+
+			<input type="radio" name="tipo" value="sqrt" id="id_sqrt">
+			<label for="id_sqrt">Radiciacao:</label>
+
+			<input type="radio" name="tipo" value="soma" id="id_soma">
+			<label for="id_soma">Soma:</label><br/>
+
+			<input type="radio" name="tipo" value="sub" id="id_sub" >
+			<label for="id_sub">Subtracao:</label>
+
+			<input type="radio" name="tipo" value="mult" id="id_mult">
+			<label for="id_mult">Multiplicacao:</label>
+
+			<input type="radio" name="tipo" value="div" id="id_div">
+			<label for="id_div">Divisao:</label>
+
+		</fieldset>
+		<input type="submit" value="Calcular">
+	</form>
+</div>
+</body>
+</html>
+ 
